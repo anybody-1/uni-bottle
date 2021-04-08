@@ -19,7 +19,7 @@
 		<view class="content">
 			<view class="options">
 				<uni-list>
-				    <uni-list-item title="开启点击反馈" clickable  @click="onClick" ></uni-list-item>
+				    <!-- <uni-list-item title="开启点击反馈" clickable  @click="onClick" ></uni-list-item> -->
 				    <uni-list-item title="开通/加持VIP" link to="/pages/vue/index/index" @click="onClick($event,1)" ></uni-list-item>
 				    <uni-list-item title="我的心情" link="reLaunch" to="/pages/vue/index/index" @click="onClick($event,1)" ></uni-list-item>
 				    <uni-list-item title="关注的心情" link="reLaunch" to="/pages/vue/index/index" @click="onClick($event,1)" ></uni-list-item>

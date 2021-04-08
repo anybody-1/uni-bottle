@@ -7,10 +7,18 @@
 			}
 		},
 		{
-			"path": "pages/tabbar/tabbar-2/tabbar-2",
+			"path": "pages/beach/fishing",
 			"style": {
-				"navigationBarTitleText": "消息"
+				"navigationBarTitleText": "捞取漂流瓶"
 			}
+		},
+		{
+		    "path" : "pages/information/information",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "消息",
+		        "enablePullDownRefresh": false
+		    }
 		},
 		{
 			"path": "pages/tabbar/tabbar-3/tabbar-3",
@@ -41,6 +49,24 @@
             }
             
         }
+        ,{
+            "path" : "pages/beach/fishing",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/beach/throw",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
@@ -63,15 +89,15 @@
 				"text": "海滩"
 			},
 			{
-				"pagePath": "pages/tabbar/tabbar-2/tabbar-2",
-				"iconPath": "static/img/tabbar/guanzhu.png",
-				"selectedIconPath": "static/img/tabbar/guanzhuactive.png",
+				"pagePath": "pages/information/information",
+				"iconPath": "static/img/tabbar/news.png",
+				"selectedIconPath": "static/img/tabbar/newsactive.png",
 				"text": "消息"
 			},
 			{
 				"pagePath": "pages/tabbar/tabbar-4/tabbar-4",
-				"iconPath": "static/img/tabbar/news.png",
-				"selectedIconPath": "static/img/tabbar/newsactive.png",
+				"iconPath": "static/img/tabbar/guanzhu.png",
+				"selectedIconPath": "static/img/tabbar/guanzhuactive.png",
 				"text": "心情"
 			},
 			{
